@@ -40,7 +40,7 @@ const AppHeader = () => {
 
       {/* Main header Element */}
       <header className="header">
-        <NavLink to="/">
+        <NavLink to="/hafeez-group/">
           <div className="website__logo-wrapper">
             <div className="logo-image__wrapper">
               <img
