@@ -10,8 +10,8 @@ const HomePage = () => {
   const images = [
     { id: 1, src: image1, caption: "Colourful Packaging Board Papers" },
     { id: 2, src: image2, caption: "Board Paper Role" },
-    { id: 3, src: image3, caption: "Caption 3" },
-    { id: 4, src: image4, caption: "Caption 4" },
+    { id: 3, src: image3, caption: "Board Paper" },
+    { id: 4, src: image4, caption: "Packaging Board Paper" },
   ];
 
   return (

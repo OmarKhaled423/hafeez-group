@@ -6,6 +6,7 @@ import { FiInstagram } from "react-icons/fi";
 const AppFooter = () => {
   return (
     <footer className="footer">
+      <div className="footer-top">
       <div className="footer-section">
         <h4>Bangladesh</h4>
         <p>Hafeez Uddin Group</p>
@@ -23,6 +24,7 @@ const AppFooter = () => {
         <p>Phone: +880 130 784 1529</p>
       </div>
       <div className="footer-section">
+        <h4>Follow With</h4>
         <p>Stay up to date with latest industry news</p>
         <button className="subscribe-button">Click Here</button>
         <div className="social-icons">
@@ -51,6 +53,10 @@ const AppFooter = () => {
             <FiInstagram color="#fc007e" />
           </a>
         </div>
+      </div>
+      </div>
+      <div className="footer-bottom">
+        <p>Copyright 2024 © All Rights Reserved. Hafeez Uddin Tizarah and Trade Company for Paper Trading.</p>
       </div>
     </footer>
   );

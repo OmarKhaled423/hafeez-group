@@ -1,12 +1,15 @@
-import Marquee from "../../components/Marquee/Marquee";
+import AppFooter from "../../components/footer/AppFooter";
 import AppHeader from "../../components/header/AppHeader";
 
 const AboutUsPage = () => {
   return (
     <>
-       <Marquee />
        <AppHeader />
-      <h1> About Us Page</h1>
+    <div className="bannar">
+      <h1 className="page-heading"> About Us</h1>
+
+    </div>
+      <AppFooter/>
     </>
   );
 };

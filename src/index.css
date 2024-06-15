@@ -93,6 +93,28 @@ button:focus-visible {
   color: var(--active-item-color);
 }
 
+.bannar{
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  text-align: left;
+  height: 83svh;
+  width: 100%;
+  background-color: #cfcfcf50;
+}
+
+::-webkit-scrollbar{
+  width: 0px;
+  background-color: #989fa3;
+}
+-webkit-scrollbar-track{
+  background-color: #000000;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 3px;
+  background-color: var(--main-light-100-color);
+}
+
+
 
 
 

@@ -104,7 +104,7 @@ const AppHeader = () => {
             className={({ isActive }) =>
               isActive ? "active-item" : "none-color"
             }
-            to="/donation"
+            to="/events"
           >
             <span className="header__nav-item">Events</span>
           </NavLink>
@@ -112,7 +112,7 @@ const AppHeader = () => {
             className={({ isActive }) =>
               isActive ? "active-item" : "none-color"
             }
-            to="/photos"
+            to="/contact-us"
           >
             <span className="header__nav-item">Contact Us</span>
           </NavLink>
