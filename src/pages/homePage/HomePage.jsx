@@ -25,6 +25,7 @@ const HomePage = () => {
 
       {/* App Footer component*/}
       <AppFooter />
+
     </>
   );
 };

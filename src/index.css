@@ -97,7 +97,8 @@ button:focus-visible {
   padding-inline: 2rem;
   padding-block: 1rem;
   text-align: left;
-  /* height: 83svh; */
+  min-height: 55svh;
+  max-height: 83svh;
   width: 100%;
   background-color: #cfcfcf50;
 }

@@ -66,7 +66,7 @@ const AppHeader = () => {
             className={({ isActive }) =>
               isActive ? "active-item" : "none-color"
             }
-            to="/"
+            to="/hafeez-group/"
           >
             <span className="header__nav-item">Home </span>
           </NavLink>

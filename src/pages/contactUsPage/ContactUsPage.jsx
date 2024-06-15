@@ -18,7 +18,7 @@ const ContactUsPage = () => {
           <div className="contact-information">
             <h4>Opening Hours</h4>
             <p>Saturday to Thursday : 10am – 6pm</p>
-            <b className="alarm">Friday: Closed</b>
+            <p className="alarm">Friday: Closed</p>
           </div>
           <div className="contact-information">
             <h4>E-mail </h4>
